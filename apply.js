@@ -51,3 +51,8 @@ const displayMeals = meals => {
 //  });
 
 // }
+
+const mealDetail = detail => {
+    const url = `https://www.themealdb.com/api/json/v1/1/list.php?i=${strIngredient}`;
+    console.log(url);
+}
