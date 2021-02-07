@@ -20,9 +20,19 @@
 
 .meal img {
     width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .allItem {
     margin-left: 25%;
+}
+
+.meal ul, h4 {
+    padding-left: 8%;
+    text-align: left;
+    font-size: 1rem;
+}
+.meal li{
+    font-size: small;
 }
